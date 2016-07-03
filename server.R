@@ -25,11 +25,11 @@ shinyServer(function(input, output) {
             subset_data <- subset_data[, -c(1:4)]
             
             # convert data frame
-            subset_data$metadata <- row.names(subset_data)
-            subset_data <- melt(subset_data, "metadata")
+            subset_data$country <- row.names(subset_data)
+            subset_data <- melt(subset_data, "country")
             
             # plot
-            p <- ggplot(subset_data, aes(variable, value, group = metadata, color = metadata)) + 
+            p <- ggplot(subset_data, aes(variable, value, group = country, color = country)) + 
                     geom_line() + geom_point() + 
                     ggtitle(paste(input$SeriesName, ' ', "2000 - 2015")) +
                     xlab('Year') + ylab(input$SeriesName)
