@@ -22,7 +22,10 @@ shinyUI(pageWithSidebar(
                 actionButton('submitButton', 'Submit & Plot')
         ),
         mainPanel(
-                plotOutput("plot_out_put")
+                tabsetPanel(
+                        tabPanel("Plot", plotOutput("plot_out_put")),
+                        tabPanel("Document", includeMarkdown("README.md"))
+                )
         )
   )
 )
