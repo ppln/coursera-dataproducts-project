@@ -4,6 +4,7 @@
 #
 
 library(shiny)
+require(markdown)
 
 seriesNames <- as.character(unique(my_data$Series.Name))
 countryNames <- as.character(unique(my_data$Country.Name))

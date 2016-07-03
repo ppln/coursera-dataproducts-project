@@ -2,8 +2,8 @@ name: coursera-dataproducts-project
 account: ppln
 server: shinyapps.io
 appId: 112121
-bundleId: 495449
+bundleId: 495450
 url: https://ppln.shinyapps.io/coursera-dataproducts-project/
-when: 1467568378.01207
+when: 1467568520.13299
 asMultiple: FALSE
 asStatic: FALSE
