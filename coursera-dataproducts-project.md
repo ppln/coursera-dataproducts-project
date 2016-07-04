@@ -69,5 +69,5 @@ ggplot(subset, aes(variable, value, group = country, color = country)) +
         xlab('Year') + ylab(seriesName) + coord_fixed(ratio = 7/10)
 ```
 
-![plot of chunk unnamed-chunk-4](DataProductsProject-WorldDevelopmentIndicator-figure/unnamed-chunk-4-1.png)
+![plot of chunk unnamed-chunk-4](coursera-dataproducts-project-figure/unnamed-chunk-4-1.png)
 
