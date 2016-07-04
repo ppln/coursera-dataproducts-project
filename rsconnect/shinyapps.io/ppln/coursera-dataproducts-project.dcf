@@ -2,8 +2,9 @@ name: coursera-dataproducts-project
 account: ppln
 server: shinyapps.io
 appId: 112121
-bundleId: 495450
+bundleId: 495601
 url: https://ppln.shinyapps.io/coursera-dataproducts-project/
-when: 1467568520.13299
+when: 1467598676.21531
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: DataProductsProject-WorldDevelopmentIndicator.md|DataProductsProject-WorldDevelopmentIndicator.Rpres|DataProductsProject-WorldDevelopmentIndicator-figure/unnamed-chunk-2-1.png|DataProductsProject-WorldDevelopmentIndicator-figure/unnamed-chunk-3-1.png|DataProductsProject-WorldDevelopmentIndicator-figure/unnamed-chunk-4-1.png

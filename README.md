@@ -1,6 +1,8 @@
 # Coursera Developing Data Products Project - World Development Indicators
 
-This Shiny App try to visualize world development informations.
+This Shiny App try to visualize world development informations. The Development Indicators dataset has 20 types
+of indicators, like "GDP growth", "Population", "Internet users" etc. You can select a indicator and
+your preferred countries to view the development trends, and do some comparison.
 
 Dataset is from http://databank.worldbank.org/data/home.aspx DataBank is an analysis and visualisation
 tool that contains collections of time series data on variety of topics.
